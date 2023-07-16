@@ -94,6 +94,30 @@ main{
     width: 100%;
 }
 
+/* ----------Facts----- */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    text-align: center;
+    text-align: center;
+    padding: 30px;
+    
+}
+.cards-stats{
+    font-size: 2.8rem;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-title{
+    font-weight: 600;
+    margin-top: 5px;
+}
+
 
 /* --------Responsive-------------- */
 /* ----------Mobile------ */
