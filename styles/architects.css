@@ -11,6 +11,11 @@ body{
     cursor: pointer;
     border: 0;
 }
+.text-light-gray{
+    color: #727272;
+}
+
+
 /* -------header------ */
 header{
     background-color: #FFF4E7;
@@ -83,9 +88,7 @@ main{
     font-weight: 700;
     color: #131313;
 }
-.banner-desc{
-    color: #727272;
-}
+
 .banner-img{
     margin-top: 20px;
     width: 100%;
@@ -99,18 +102,22 @@ main{
     header{
         padding: 20px;
     }
-    nav{
+    nav, .teams-container{
         flex-direction: column;
     }
+    main{
+        
+        margin:0px;
+    }
 
-
-
-
-
-
-
-
-
+    /* ---------teams container---------- */
+    .teams-img-container{
+        grid-template-columns: 1fr;
+    }
+    .teams-content{
+        padding: 0px;
+        margin: 40px;
+    }
 
 }
 
@@ -121,10 +128,17 @@ main{
     header{
         padding: 20px;
     }
-    nav{
+    nav, .teams-container{
         flex-direction: column;
     }
-    
+    .teams-content{
+        padding: 0px;
+        margin: 0px;
+    }
+    main{
+        
+        margin: 100px;
+    }
 }
 
 
